@@ -5,10 +5,13 @@ typedef struct {
 	int y;
 } Point;
 
+int sum(Point*,Point*);
+
 int main(){
 	Point one = {.x=15, .y=20};
 	Point two = {.x=5, .y=21};
-	printf("%d\n",sum(one, two));
+	printf("%d\n",sum(&one, &two));
+	//printf("%d\n",sum(&one, &two));
 	return 0;
 }
 

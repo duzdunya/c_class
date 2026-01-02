@@ -1,3 +1,7 @@
 Makefile
 answers.md
 answers.html
+build/*
+build/*.
+*.exe
+*.out
